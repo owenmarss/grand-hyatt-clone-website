@@ -1,0 +1,461 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: content-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vw;
+    background-color: #e5e4e4;
+    border-bottom: #c0243c 3px solid;
+}
+
+.logo img {
+    width: 8vw;
+}
+
+.menu {
+    display: flex;
+    gap: 9vw;
+}
+
+.menu a {
+    color: #c0243c;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    padding: 2px;
+}
+
+.menu a:hover {
+    transform: scale(1.2);
+    text-decoration: underline;
+    background-color: #c0243c;
+    color: #f5f5f5;
+}
+
+.landscape {
+    background-color: #FAF8F1;
+    padding-bottom: 5vh;
+}
+
+.gambarLandscape {
+    position: relative;
+}
+
+.gambarLandscape img {
+    width: 100%;
+    height: 60vh;
+    opacity: 90%;
+}
+
+.deskripsiContainer {
+    position: absolute;
+    top: 18vh;
+    left: 4vw;
+    opacity: 100%;
+}
+
+.isiLandscape {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    width: 50vw;
+}
+
+.judulLandscape h1 {
+    font-family: "Arquitecta",Verdana,sans-serif;
+    color: #f5f5f5;
+    font-size: 1.8rem;
+    text-shadow: 5px 5px 5px #252525;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.judulLandscape h1 i {
+    font-weight: 900;
+}
+
+.judulLandscape h1:hover {
+    text-decoration: underline;
+}
+
+.deskripsiLandscape p {
+    font-family: "Arquitecta",Verdana,sans-serif;
+    color: #f5f5f5;
+    font-size: 1rem;
+    text-shadow: 10px 10px 10px black;
+}
+
+.story {
+    display: flex;
+    background-color: #FAF8F1;
+    padding-bottom: 5vh;
+    padding-inline: 2vw;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.story .navigation {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    border: 1px solid #252525;
+    align-items: center;
+    gap: 2vh;
+    box-shadow: 5px 5px 5px #252525;
+}
+
+.story .navigation h2 {
+    font-family: "Arquitecta",Verdana,sans-serif;
+    font-size: 1.8rem;
+    color: #e5e4e4;
+    background-color: #c0243c;
+    padding-block: 1vh;
+    width: 100%;
+    text-align: center;
+    text-shadow: 3px 3px 3px #252525;
+    border-bottom: 1px solid #252525;
+}
+
+.story .navigation a {
+    font-family: "Arquitecta",Verdana,sans-serif;
+    font-size: 1rem;
+    width: 100%;
+    color: #252525;
+    text-align: center;
+    padding-bottom: 2vh;
+    border-bottom: 1px solid #252525;
+}
+
+.story .navigation a:hover {
+    text-decoration: underline;
+}
+
+.story .storyContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 60vw;
+    padding-top: 8vh;
+    padding-bottom: 20vh;
+    padding-inline: 2vw;
+    background-color: #f5f5f5;
+    border: 1.5px solid #252525;
+    border-radius: 5px;
+}
+
+.judulStory h1 {
+    font-family: "Arquitecta",Verdana,sans-serif;
+    color: #c0243c;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.isiStory p {
+    font-family: "Arquitecta",Verdana,sans-serif;
+    font-size: 1.1rem;
+}
+
+.history {
+    background-color: #FAF8F1;
+}
+
+.historyContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding: 5vw;
+}
+
+.historyContainer .judulHistory {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vh;
+}
+
+.historyContainer .judulHistory h1 {
+    font-family: "Arquitecta",Verdana,sans-serif;
+    color: #c0243c;
+    font-size: 3rem;
+}
+
+.historyCards {
+    margin: auto;
+    align-items: center;
+    width: 75%;
+    align-items: center;
+    background-color: #ffffff;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+    border: 1.5px solid #252525;
+    border-radius: 5px;
+}
+
+.historyCards .tahunCards {
+    display: flex;
+    margin-left: 1.5vw;
+}
+
+.historyCards .tahunCards h2 {
+    text-align: center;
+    margin-bottom: 2vh;
+    padding-block: 1vh;
+    padding-inline: 1vw;
+    font-family: "Arquitecta",Verdana,sans-serif;
+    background-color: #c0243c;
+    color: #e5e4e4;
+}
+
+.historyCards .isiCards {
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.historyCards .isiCards p {
+    font-family: "Arquitecta",Verdana,sans-serif;
+    width: 25vw;
+}
+
+.historyCards img {
+    width: 20vw;
+    height: 25vh;
+}
+
+.bagianAtas {
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #20262E;
+    gap: 1vw;
+    padding: 2vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.buttonContainer {
+    padding: 2vw;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+}
+
+.buttonContainer button {
+    padding-block: 1vw;
+    padding-inline: 2vw;
+    background-color: #c0243c;
+    border: 3px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.buttonContainer button a {
+    color: #f5f5f5;
+    text-transform: uppercase;
+    font-family: "Arquitecta",Verdana,sans-serif;
+    font-weight: 700;
+}
+
+.buttonContainer button:hover {
+    transform: scale(1.2);
+}
+
+.buttonContainer button a:hover {
+    text-decoration: underline;
+}
+
+.endContent {
+    font-family: "Arquitecta",Verdana,sans-serif;
+    background-color: #20262E;
+    border-right: 2px solid #f5f5f5;
+    padding-block: 10vh;
+}
+
+.kelompok .judulKelompok {
+    padding-bottom: 8vh;
+}
+
+.kelompok .judulKelompok h1 {
+    color: #f5f5f5;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.kelompok .judulKelompok h3 {
+    color: #f5f5f5;
+    padding-top: 2vh;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.namaKelompok {
+    display: flex;
+    gap: 6vw;
+    padding-right: 2vw;
+}
+
+.namaKelompok .member1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.namaKelompok .member1 p {
+    color: #f5f5f5;
+    font-size: 1.2rem;
+}
+
+.namaKelompok .member2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.namaKelompok .member2 p {
+    color: #f5f5f5;
+    font-size: 1.2rem;
+}
+
+.trademarks {
+    font-family: "Arquitecta",Verdana,sans-serif;
+    background-color: #20262E;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.historyLearn {
+    margin-top: 10vh;
+}
+
+.judulHistory h1 {
+    color: #f5f5f5;
+}
+
+.tombolHistory button {
+    margin-top: 2.3vh;
+    padding-block: 10px;
+    padding-inline: 70px;
+    background-color: #20262E;
+    border: 2px solid #f5f5f5;
+    cursor: pointer;
+}
+
+.tombolHistory button:hover {
+    transform: scale(1.1);
+}
+
+.tombolHistory button a:hover {
+    text-decoration: underline;
+}
+
+.tombolHistory button a {
+    color: #f5f5f5;
+    font-family: "Arquitecta",Verdana,sans-serif;
+    font-weight: 900;
+}
+
+.mobileApp h1 {
+    color: #f5f5f5;
+}
+
+.judulConnect h1 {
+    color: #f5f5f5;
+}
+
+.appImages {
+    display: flex;
+    align-items: center;
+    padding-top: 1vh;
+    gap: 2vw;
+}
+
+.appStore a img {
+    width: 10.1vw;
+}
+
+.appStore a img:hover {
+    transform: scale(1.2);
+}
+
+.playStore a img {
+    width: 12.9vw;
+}
+
+.playStore a img:hover {
+    transform: scale(1.2);
+}
+
+.connect {
+    margin-bottom: 10vh;
+}
+
+.connectImages {
+    padding-top: 2vh;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.facebook a img {
+    width: 3vw;
+}
+
+.facebook a img:hover {
+    transform: scale(1.2);
+}
+
+.instagram a img {
+    width: 2.8vw;
+}
+
+.instagram a img:hover {
+    transform: scale(1.2);
+}
+
+.twitter a img {
+    width: 2.8vw;
+}
+
+.twitter a img:hover {
+    transform: scale(1.2);
+}
+
+.linkedin a img {
+    width: 2.6vw;
+}
+
+.linkedin a img:hover {
+    transform: scale(1.2);
+}
+
+.youtube a img {
+    width: 2.8vw;
+}
+
+.youtube a img:hover {
+    transform: scale(1.2);
+}
+
+.bagianBawah {
+    padding: 2vw;
+    background-color: #1b1a1a;
+}
+
+.footnote ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 5vw;
+    font-size: 0.61rem;
+}
+
+.footnote ul li {
+    font-family: "Arquitecta",Verdana,sans-serif;
+    color: #f5f5f5;
+}

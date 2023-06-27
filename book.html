@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="logoMercure">
+        </div>
+
+        <div class="menu">
+            <a href="home.html"> HOME </a>
+            <a href="histories.html"> HISTORIES </a>
+            <a href="rooms.html"> ROOMS </a>
+            <a href="book.html"> BOOK </a>
+            <a href="contactus.html"> CONTACT US </a>
+        </div>
+    </header>
+
+    <section class="bookForm">
+        <div class="formContainer">
+            <div class="judulBook">
+                <h1> Booking </h1>
+            </div>
+            
+            <div class="isiForm">
+                <form action="">
+                    <div class="inputField">
+                        <label for="namaInput"> Nama lengkap: </label>
+                        <input type="text" name="namaInput" id="namaInput" class="input" placeholder="Masukan nama anda" required>
+                    </div>
+        
+                    <div class="inputField">
+                        <label for="emailInput"> Email: </label>
+                        <input type="email" name="emailInput" id="emailInput" class="input" placeholder="Masukan email Anda" required>
+                    </div>
+        
+                    <div class="inputField">
+                        <label for="telponInput"> Nomor Telepon: </label>
+                        <input type="number" name="telponInput" id="telponInput" class="input" placeholder="Masukan nomor telepon Anda" required>
+                    </div>
+        
+                    <div class="inputField">
+                        <label for="jenisKamar"> Tipe Kamar: </label>
+                        <!-- <div class="pilihanKamar"> -->
+                            <select name="jenisKamar" id="jenisKamar" class="input" required>
+                                <option value=""> Pilih </option>
+                                <option value="capitalbundaran"> Capital Suite Bundaran Room </option>
+                                <option value="capital"> Capital Suite Room </option>
+                                <option value="grandbundaran"> Grand Suite Bundaran Room </option>
+                                <option value="grand"> Grand Suite Room </option>
+                                <option value="diplomatic"> Diplomatic Suite Room </option>
+                                <option value="presidential"> Presidential Suite Room </option>
+                                <option value="premiere"> Premiere Suite Room </option>
+                            </select>
+                        <!-- </div> -->
+                    </div>
+        
+                    <div class="inputField">
+                        <label for="dewasaInput"> Jumlah Tamu Dewasa: </label>
+                        <input type="number" name="dewasaInput" id="dewasaInput" class="input" placeholder="Masukan jumlah tamu dewasa" required>
+                    </div>
+        
+                    <div class="inputField">
+                        <label for="anakInput"> Jumlah Tamu Anak: </label>
+                        <input type="number" name="anakInput" id="anakInput" class="input" placeholder="Masukan jumlah tamu anak" required>
+                    </div>
+        
+                    <div class="inputField">
+                        <label for="inInput"> Tanggal Check-In: </label>
+                        <input type="date" name="inInput" id="inInput" class="input" required>
+                    </div>
+        
+                    <div class="inputField">
+                        <label for="outInput"> Tanggal Check-Out: </label>
+                        <input type="date" name="outInput" id="outInput" class="input" required>
+                    </div>
+
+                    <div class="inputField">
+                        <label for="noteInput"> Note: </label>
+                        <input type="text" name="noteInput" id="noteInput" placeholder="">
+                    </div>
+        
+                    <div class="inputButton">
+                        <div class="cancelButton">
+                            <input type="reset" value="Cancel">
+                        </div>
+                        <!-- <button type="reset" class="cancelButton">
+                            cancel
+                        </button> -->
+    
+                        <div class="submitButton">
+                            <input onclick="showName()" type="submit" value="Send">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="buttonContainer">
+        <button id="bookButton">
+            <a href="rooms.html"> Check the Rooms </a>
+        </button>
+    </div>
+
+    <footer>
+        <div class="bagianAtas">
+            <div class="endContent">
+                <div class="kelompok">
+                    <div class="judulKelompok">
+                        <h1> Kelompok 4 </h1>
+                        <h3> Kelas 2023 </h3>
+                    </div>
+    
+                    <div class="namaKelompok">
+                        <div class="member1">
+                            <p> 19210014 - Sharene </p>
+                            <p> 19210015 - Otto Chen </p>
+                            <p> 19210016 - Intan Anggrayni </p>
+                        </div>
+    
+                        <div class="member2">
+                            <p> 19210017 - Eriska Japcilia </p>
+                            <p> 19210018 - Raditya Widy Putranto </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="trademarks">
+                <div class="historyLearn">
+                    <div class="judulHistory">
+                        <h1> Hyatt Group Histories </h1>
+                    </div>
+    
+                    <div class="tombolHistory">
+                        <button>
+                            <a href="histories.html"> Learn More </a>
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="mobileApp">
+                    <h1> Get The Mobile App </h1>
+    
+                    <div class="appImages">
+                        <div class="appStore">
+                            <a href="https://apps.apple.com/us/app/hyatt-hotels/id476639005">
+                                <img src="images/appstore.png" alt="">
+                            </a>
+                        </div>
+    
+                        <div class="playStore">
+                            <a href="https://play.google.com/store/apps/details?id=com.Hyatt.hyt">
+                                <img src="images/playstore.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="connect">
+                    <div class="judulConnect">
+                        <h1> Connect With Hyatt </h1>
+                    </div>
+    
+                    <div class="connectImages">
+                        <div class="facebook">
+                            <a href="https://www.facebook.com/hyatt">
+                                <img src="images/facebook.png" alt="">
+                            </a>
+                        </div>
+    
+                        <div class="instagram">
+                            <a href="https://www.instagram.com/hyatt/">
+                                <img src="images/instagram.png" alt="">
+                            </a>
+                        </div>
+    
+                        <div class="twitter">
+                            <a href="https://twitter.com/Hyatt">
+                                <img src="images/twitter.png" alt="">
+                            </a>
+                        </div>
+    
+                        <div class="linkedin">
+                            <a href="https://www.linkedin.com/company/hyatt">
+                                <img src="images/linkedin.png" alt="">
+                            </a>
+                        </div>
+    
+                        <div class="youtube">
+                            <a href="https://www.youtube.com/user/hyatt">
+                                <img src="images/youtube.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bagianBawah">
+            <div class="footnote">
+                <ul>
+                    <li> Privacy Policy </li>
+                    <li> Terms & Conditions </li>
+                    <li> Cookie Center </li>
+                    <li> Security & Safety </li>
+                    <li> Modern Slavery & Human Trafficking </li>
+                    <li> Do Not Sell or Share Personal Information </li>
+                    <li> © 2023 Hyatt Corporation </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    const nameValue = document.querySelector('#namaInput')
+    function showName(){
+        const data = fetch('https://dummyjson.com/products')
+        
+        .then(res => res.json())
+        .then(json => console.log(json))
+        nameValue.value = ''
+
+        // axios('https//abcd/create',{
+        //     name : nameValue
+        // })
+    }
+</script>
+</html>
